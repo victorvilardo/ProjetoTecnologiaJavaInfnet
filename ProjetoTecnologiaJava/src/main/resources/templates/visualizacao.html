@@ -1,0 +1,17 @@
+<!-- uploadResult.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Result</title>
+</head>
+<body>
+
+<h2>Upload Result</h2>
+
+<div th:if="${fileContent != null}">
+    <pre th:text="${fileContent.content}"></pre>
+</div>
+
+</body>
+</html>
